@@ -1,0 +1,89 @@
+#mainWrap {
+    width: 800px;
+    height: 700px;
+    margin: auto;
+}
+#topBar {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 100px;
+    background-color: rgb(123,194,129);
+}
+#numberWrap {
+    width: 600px;
+    height: 600px;
+    float: left;
+    background-color: rgb(123,194,129);
+}
+#expressions {
+    float: right;
+    width: 200px;
+    height: 600px;
+    background-color:rgb(123,194,129);
+}
+button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
+/* Misc for removing styling from default CSS */
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+button:focus {outline:0;}
+/*TopBar Stuff 104 178 91*/
+
+#clear {
+    width: 220px;
+    height: 100px;
+    font-size: 40px;
+    background-color: rgb(104,178,91);
+    color: white;
+}
+#resultField {
+    width: 600x;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 80px;
+    background-color: rgb(104,178,91);
+    color: white;
+}
+
+/*Number Section shit*/
+
+#numberWrap button {
+    width: 197px;
+    height: 150px;
+    font-size: 40px;
+    background-color: rgb(104,178,91);
+    color: white;
+}
+#numberWrap button:hover {
+    background-color: rgb(71, 122, 62);
+}
+
+/*Expression Shit Section*/
+
+#expressions button{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(132,193,123);
+    font-size: 40px;
+    color: white;
+}
+#expressions button:hover {
+    background-color: rgb(101, 148, 94);
+}
